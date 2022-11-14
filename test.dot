@@ -1,0 +1,14 @@
+digraph tree {
+	"harry" [label="Harry", shape=circle]
+	"bill" [label="Bill", shape=circle]
+	"jane" [label="Jane", shape=circle]
+	"diane" [label="Diane", shape=circle]
+	"mark" [label="Mark", shape=circle]
+	"mary" [label="Mary", shape=circle]
+
+	"harry" -> "jane"
+	"harry" -> "bill"
+	"jane" -> "diane"
+	"jane" -> "mark"
+	"diane" -> "mary"
+}
